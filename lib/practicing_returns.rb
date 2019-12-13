@@ -8,6 +8,7 @@ def hello(array)
     new_array << yield(array[i])
     i += 1
   end
+  return new_array
 end
 
 
